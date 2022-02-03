@@ -23,7 +23,10 @@ const projects = [
         img: mcr,
         github: "https://github.com/heatedtowel/moviecritix",
         description: "Generates giphys from the top 250 movies on IMDb"
-    }, {
+    }]
+
+const projects2 = [
+    {
         name: "Workday Scheduler",
         img: wds,
         github: "https://github.com/Ybyonas1/dream-team-day-planner",
@@ -46,6 +49,9 @@ export default function Projects() {
         <div className="container">
             <div className="row d-flex justify-content-evenly">
                 {projects.map(proj => <Project project={proj} />)}
+            </div>
+            <div className="row d-flex justify-content-evenly">
+                {projects2.map(proj => <Project project={proj} />)}
             </div>
         </div>
     )

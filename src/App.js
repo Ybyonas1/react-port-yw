@@ -4,7 +4,7 @@ import Navtabs from './components/NavTabs/Navtabs';
 import Footer from './components/Footer/Footer'
 import Home from './components/pages/Home/Home'; //
 import Projects from './components/pages/Projects/Projects';
-// import Contact from './pages/Contact';
+import Contact from './components/pages/Contact/Contact';
 // import Extra from './pages/Extra';
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
       return <Projects />;
     }
     if (currentPage === 'Contact') {
-      // return <Contact />;
+      return <Contact />;
     }
     // return <Resume />;
   };

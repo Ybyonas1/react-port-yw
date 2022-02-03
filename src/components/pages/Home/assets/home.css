@@ -1,9 +1,16 @@
 .profileP {
-    width: 350px;
-    height: 200x;
-    border-radius: 90px;
+    width: 400px;
+    border-radius: 230px;
 }
 
 a {
     text-decoration: none!important;
+}
+
+.aboutM {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.aboutMe {
+    font-family: 'Source Code Pro', monospace;
 }

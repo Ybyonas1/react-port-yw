@@ -8,14 +8,14 @@ export default function Home() {
         <div className="container-fluid">
             <div className="row mt-5 mx-4">
                 <div className="col-8 text-white">
-                    <h1>Hey there! I'm Yonas</h1>
-                    <p className="mt-4 text-white">
-                        Welcome to my Portfolio! I am a recent gradute of UNCC"s Coding Bootcamp at the Univeristy of North Carolina at Charlotte who enjoys a challenge, problem solving and logical thinking. Upon graduation from the Coding Bootcamp in early February, I will be looking to continue to grow my skills while also be in search of a Full-Time Software Engineering Developer position hopefully in the Charlotte, NC area. I look forward to adding immediate value to a company.</p>
+                    <h2 className="aboutMe">Hey there! I'm Yonas</h2>
+                    <p className="mt-4 text-white aboutMe">
+                        Welcome to my Portfolio! I am a recent gradute of Coding Bootcamp at the Univeristy of North Carolina at Charlotte who enjoys a challenge, problem solving and logical thinking. Upon graduating from the Coding Bootcamp in early February, I will be looking to continue to develop my skills while also searching for a Full-Time Software Engineering/Developer position, hopefully in the Charlotte, NC area. I look forward to adding immediate value to a company.</p>
 
                     <br />
-                    <p> Some of my technical skills include JavaScript, React, MERN, HTML, CSS, NodeJS, MySQL, MongoDB, API’s, OOP, Test Driven Development, Model View Controller, and Git flow. </p>
+                    <p className="aboutMe"> Some of my technical skills include JavaScript, React, ExpressJS, MERN, HTML, CSS, NodeJS, MySQL, MongoDB, API’s, OOP, Test Driven Development, GraphQL, Model View Controller, and Git flow. </p>
                     <br />
-                    <p> Fun facts: I am born and rasied in Charlotte, NC, I enjoy hiking, playing basketball, and spending time with friends and family.
+                    <p className="aboutMe"> Fun facts: I am born and rasied in Charlotte, NC, I enjoy hiking, playing basketball, and spending time with friends and family.
                     </p>
                     <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/yonas-woldemichael-47a794225/"> <i className="fab display-3 mx-4 fa-linkedin"></i> </a>
                     <a href="mailto:ybyonas@gmail.com"> <i className="fas display-3 mx-4 fa-envelope-square"></i> </a>

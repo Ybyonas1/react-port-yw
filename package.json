@@ -2,6 +2,7 @@
   "name": "react-port-yw",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Ybyonas1.github.io/react-port-yw",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
@@ -19,11 +20,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "homepage": "https://myusername.github.io",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },

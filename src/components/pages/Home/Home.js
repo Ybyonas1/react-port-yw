@@ -1,6 +1,6 @@
 import React from 'react';
-import blank from '../../images/blank.png';
-import './home.css';
+import blank from './assets/blank.png';
+import './assets/home.css';
 
 
 export default function Home() {
@@ -17,9 +17,9 @@ export default function Home() {
                     <br />
                     <p> Fun facts: I am born and rasied in Charlotte, NC, I enjoy hiking, playing basketball, and spending time with friends and family.
                     </p>
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/yonas-woldemichael-47a794225/"> <i className="fab display-3 text-white mx-4 fa-linkedin"></i> </a>
-                    <a href="mailto:ybyonas@gmail.com"> <i className="fas display-3 text-white mx-4 fa-envelope-square"></i> </a>
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/Ybyonas1" > <i className="fab display-3 mx-4 text-white text-white fa-github-square"></i> </a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/yonas-woldemichael-47a794225/"> <i className="fab display-3 mx-4 fa-linkedin"></i> </a>
+                    <a href="mailto:ybyonas@gmail.com"> <i className="fas display-3 mx-4 fa-envelope-square"></i> </a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/Ybyonas1" > <i className="fab display-3 mx-4 fa-github-square"></i> </a>
                 </div>
                 <div className="col-4 d-flex justify-content-center">
                     <img src={blank} className="profileP" alt="port-picture" />

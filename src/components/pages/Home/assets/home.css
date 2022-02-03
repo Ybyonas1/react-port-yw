@@ -3,3 +3,7 @@
     height: 200x;
     border-radius: 90px;
 }
+
+a {
+    text-decoration: none!important;
+}

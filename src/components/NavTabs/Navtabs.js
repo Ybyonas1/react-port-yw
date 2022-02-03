@@ -1,5 +1,5 @@
 import React from 'react';
-import './pages/home.css';
+import '../pages/Home/assets/home.css';
 
 function Navtabs({ handlePageChange }) {
     return (
@@ -9,7 +9,7 @@ function Navtabs({ handlePageChange }) {
                 <div className="col d-flex flex-row-reverse align-items-end">
                     <a href="#resume" onClick={() => handlePageChange('Resume')} className="p-3 text-decoration-none text-white">Resume</a>
                     <a href="#contact" onClick={() => handlePageChange('Contact')} className="p-3 text-decoration-none text-white">Contact Me</a>
-                    <a href="#projects" onClick={() => handlePageChange('Project')} className="p-3 text-decoration-none text-white">Projects</a>
+                    <a href="#projects" onClick={() => handlePageChange('Projects')} className="p-3 text-decoration-none text-white">Projects</a>
                     <a hred="#home" onClick={() => handlePageChange('Home')} className="p-3 text-decoration-none text-white">Home</a>
                 </div>
             </div>

@@ -1,13 +1,8 @@
 body {
   min-height: 100vh;
-  background-image: url(/src/images/imgb.png);
+  background-image: url(./images/imgb.png);
 }
 
 .fontsize {
   font-size: 13px;
 }
-
-/* #navTabs {
-  height: 8vh;
-  border: white 5px solid
-} */

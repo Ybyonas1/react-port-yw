@@ -1,11 +1,11 @@
 import React from 'react';
-import Project from '../Project'
-import blank from '../../images/blank.png';
-import quiz from '../../images/quiz.png';
-import port from '../../images/port.png';
-import mcr from '../../images/mcr.png';
-import wds from '../../images/wds.png';
-import met from '../../images/met.png';
+import Card from './Card'
+import blank from '../Home/assets/blank.png';
+import quiz from './assets/images/quiz.png';
+import port from './assets/images/port.png';
+import mcr from './assets/images/mcr.png';
+import wds from './assets/images/wds.png';
+import met from './assets/images/met.png';
 
 const projects = [
     {
@@ -23,9 +23,7 @@ const projects = [
         img: mcr,
         github: "https://github.com/heatedtowel/moviecritix",
         description: "Generates giphys from the top 250 movies on IMDb"
-    }]
-
-const projects2 = [
+    },
     {
         name: "Workday Scheduler",
         img: wds,
@@ -47,13 +45,9 @@ const projects2 = [
 export default function Projects() {
     return (
         <div className="container">
-            <div className="row d-flex justify-content-evenly">
-                {projects.map(proj => <Project project={proj} />)}
-            </div>
-            <div className="row d-flex justify-content-evenly">
-                {projects2.map(proj => <Project project={proj} />)}
+            <div className="row d-flex mt-4 justify-content-evenly">
+                {projects.map(proj => <Card project={proj} />)}
             </div>
         </div>
     )
-
 }

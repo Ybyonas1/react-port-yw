@@ -1,5 +1,5 @@
 import React from 'react';
-import blank from './assets/blank.png';
+import portfoloPic from './assets/blank.png';
 import './assets/home.css';
 
 
@@ -22,7 +22,7 @@ export default function Home() {
                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/Ybyonas1" > <i className="fab display-3 mx-4 fa-github-square"></i> </a>
                 </div>
                 <div className="col-4 d-flex justify-content-center">
-                    <img src={blank} className="profileP" alt="port-picture" />
+                    <img src={portfoloPic} className="profileP" alt="port-picture" />
                 </div>
             </div>
         </div>

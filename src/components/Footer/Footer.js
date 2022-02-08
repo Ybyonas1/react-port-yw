@@ -7,6 +7,7 @@ function Footer() {
                 <div className="card-body">
                     <blockquote className="blockquote mb-0">
                         <p className="text-black text-center text-white">Created with ❤️ and React.Js! </p>
+                        <span>© {new Date().getFullYear()} Yonas woldemichael.</span>
                     </blockquote>
                 </div>
 

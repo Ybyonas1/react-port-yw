@@ -1,5 +1,5 @@
 import React from 'react';
-import portfoloPic from './assets/blank.png';
+import portfoloPic from './assets/portpic.jpg';
 import './assets/home.css';
 
 

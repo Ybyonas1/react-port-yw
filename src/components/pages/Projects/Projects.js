@@ -1,11 +1,11 @@
 import React from 'react';
 import Card from './Card'
-import blank from '../Home/assets/blank.png';
 import quiz from './assets/images/quiz.png';
 import port from './assets/images/port.png';
 import mcr from './assets/images/mcr.png';
 import wds from './assets/images/wds.png';
 import met from './assets/images/met.png';
+import dagjyd from "./assets/images/dagjyd.png";
 
 const projects = [
     {
@@ -40,11 +40,11 @@ const projects = [
         url: "https://ybyonas1.github.io/team-profile-gen/",
         description: "Adds employees onto a team profile via prompts in the terminal, made with Node.js & TDD"
     }, {
-        name: "Capstone Project (Coming Soon...)",
-        img: blank,
-        github: "https://www.github.com",
-        url: "https://ybyonas1.github.io/dream-team-day-planner/",
-        description: "coming soon"
+        name: "Dagjy Deck Builder",
+        img: dagjyd,
+        github: "https://github.com/gluupo/dajgy-deckbuilder",
+        url: "https://tranquil-falls-52143.herokuapp.com/",
+        description: "Deck building app for Magic: The Gathering"
     }
 ];
 

@@ -11,3 +11,7 @@ transform: scale(1.1);
 .cardText {
     text-shadow: 2px 2px black;
 }
+
+@media (max-width: 991.98px) { 
+
+ };

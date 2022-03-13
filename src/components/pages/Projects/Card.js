@@ -7,7 +7,7 @@ import './assets/css/project.css';
 export default function Card({ project }) {
     console.log(this);
     return (
-        <div className="card flex-grow-1 m-3 col-3 p-5 images bg-transparent border border-white" style={{ backgroundImage: `url(${project.img})` }}>
+        <div className="card flex-grow-1 m-3 col-12 col-md-6 col-lg-4 p-5 images bg-transparent border border-white" style={{ backgroundImage: `url(${project.img})` }}>
             {/* How to make 2 rows with 3 colomns?? */}
             {/* <img src={project.img} className="card-img-top" alt="..." /> */}
             <div className="card-body">
